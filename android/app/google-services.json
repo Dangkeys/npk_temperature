@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1005011324783",
+    "firebase_url": "https://npktemperature-b5989-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "npktemperature-b5989",
+    "storage_bucket": "npktemperature-b5989.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005011324783:android:6d006847c2d2adea1ba29a",
+        "android_client_info": {
+          "package_name": "com.example.npk_temperature"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmisy-uSPpBpFTzwq_i-Yv9xjj1L9niTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
