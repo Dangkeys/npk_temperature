@@ -8,7 +8,7 @@ void main() async {
   await Firebase.initializeApp();
   runApp(const MyApp());
 }
-
+ 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -100,7 +100,6 @@ class _SensorScreenState extends State<SensorScreen> {
         }
       }
     }, onError: (error) {
-      print('Error: $error');
       if (mounted) {
         setState(() {
           isLoading = false;
@@ -244,14 +243,6 @@ class _SensorScreenState extends State<SensorScreen> {
                       ),
                     ),
                     const SizedBox(height: 24),
-                    const Text(
-                      'More Specific',
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black87,
-                      ),
-                    ),
                     const SizedBox(height: 16),
                     _buildNutrientCard(
                       'Nitrogen',
@@ -285,11 +276,7 @@ class _SensorScreenState extends State<SensorScreen> {
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(15),
       ),
-      color: title == 'Nitrogen' 
-          ? Colors.red.shade200
-          : title == 'Phosphorus'
-              ? Colors.green.shade200
-              : Colors.blue.shade200,
+      color: Colors.white,
       child: Padding(
         padding: const EdgeInsets.all(16),
         child: Row(
