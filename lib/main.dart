@@ -123,16 +123,6 @@ class _SensorScreenState extends State<SensorScreen> {
             color: Colors.black87,
           ),
         ),
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.download, color: Colors.black87),
-            onPressed: () {},
-          ),
-          IconButton(
-            icon: const Icon(Icons.menu, color: Colors.black87),
-            onPressed: () {},
-          ),
-        ],
       ),
       body: isLoading
           ? const Center(child: CircularProgressIndicator())
