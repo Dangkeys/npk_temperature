@@ -45,9 +45,9 @@ class _SensorScreenState extends State<SensorScreen> {
   // Recommended ranges for sugarcane
   static const tempRange = {'min': 20.0, 'max': 35.0}; // °C
   static const humidRange = {'min': 70.0, 'max': 85.0}; // %
-  static const nitrogenRange = {'min': 40.0, 'max': 80.0}; // mg/kg
-  static const phosphorusRange = {'min': 20.0, 'max': 40.0}; // mg/kg
-  static const potassiumRange = {'min': 80.0, 'max': 120.0}; // mg/kg
+  static const nitrogenRange = {'min': 50.0, 'max': 100.0}; // mg/kg
+  static const phosphorusRange = {'min': 40.0, 'max': 80.0}; // mg/kg
+  static const potassiumRange = {'min': 100.0, 'max': 150.0}; // mg/kg
 
   bool isInRange(double value, Map<String, double> range) {
     return value >= range['min']! && value <= range['max']!;
